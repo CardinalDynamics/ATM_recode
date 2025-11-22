@@ -1,0 +1,73 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Start2-Coral1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "score L4"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Coral1-meh"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "fast algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "meh-Algae4"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "grab algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Algae4-Net1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "score algae"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Net1-Algae5"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
